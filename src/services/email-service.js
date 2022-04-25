@@ -4,7 +4,7 @@ sendgrid.setApiKey(config.sendgridKey)
 exports.send = async (to, subject, body) =>{
     sendgrid.send({
         to: to,
-        from: 'wesleyrafael_p@protonmail.com',
+        from: '',
         subject: subject,
         html: body
     });
