@@ -1,6 +1,6 @@
 # API com node.js
 
-É uma API feita com node.js, onde a mesma serve para gerar cadastros de clientes, produtos e pedidos. 
+É uma API feita com node.js, onde a mesma serve para gerar cadastros de usuários, produtos e pedidos. 
  
 ## Dependências 
 
