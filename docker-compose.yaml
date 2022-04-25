@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  mongo:
+    container_name: mongo
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: admin123
+      MONGO_INITDB_DATABASE: test
+    ports:
+      - "27017:27017"
+    restart: always
+    networks:
+      - o_quantitativo_network
+
+networks:
+  o_quantitativo_network:
+    driver: bridge
