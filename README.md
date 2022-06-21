@@ -1,4 +1,4 @@
-# API com node.js
+# API com node.js e MongoDB
 
 É uma API feita com node.js, onde a mesma serve para gerar cadastros de usuários, produtos e pedidos. 
  
